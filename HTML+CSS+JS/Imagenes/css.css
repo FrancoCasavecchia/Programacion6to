@@ -1,0 +1,17 @@
+.recuadro{
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    
+}
+
+#fondo{
+    display: block;
+    width: 250px;
+    height: 500px;
+    background-color: blanchedalmond;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Profe en el js no pude terminar de entender el porque no me funcionaba el codigo y estuve varias horas cambiandolo y sigue sin funcionar,yo creo que deberia de hacerlo pero capaz tengo algun errror minimo,si lo pudiera revisar le agradeceria. -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body onload="init();">
+        <header>
+            <h1><u>Conversor de Divisas</u></h1>
+        </header>
+        <div id="selctores">
+            <label id="divisa1">
+                <select name="select" id="selector1">
+                    <option id="arg" value="arg">Peso Argentino</option>
+                    <option id="usd" value="usd">Dolar</option>
+                    <option id="eur" value="eur">Euro</option>
+                    <option id="rea" value="real">Reales</option>
+                    <option id="chi" value="chil">Peso Chileno</option>
+                    <option id="uru" value="uru">Peso Uruguayo</option>
+                </select>
+                <label >
+                    <input id="canitdad1" type="number" placeholder="Cantidad" size="20px">
+                </label>
+                
+            </label>
+            <h2>A</h2>
+            <label id="divisa2" >
+                <select name="select" id="selector2">
+                    <option id="arg" value="arg">Peso Argentino</option>
+                    <option id="usd" value="usd">Dolar</option>
+                    <option id="eur" value="eur">Euro</option>
+                    <option id="real" value="real">Reales</option>
+                    <option id="chil" value="chil">Peso Chileno</option>
+                    <option id="uru" value="uru">Peso Uruguayo</option>
+                </select>
+            </label>
+        </div>
+        <div id="div_res">
+            <button id="boton_conversion">Convertir</button>
+            <span id="resultado"></span>
+        </div>
+        <script src="cambio.js"></script>
+    </body>
+</html>

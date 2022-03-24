@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(71deg,khaki,grey);
+}
+
+#fondo{
+    display: block;
+    margin-left: 620px;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 150px;
+    border-style: groove;
+    border-color: black;
+    box-shadow: 11px 17px 22px 0 black;
+}
+#cronometro{
+    background-color: khaki;
+    height: 100px;
+    width: 160px;
+    margin-left: 130px;
+    margin-top: 250px;
+    text-align: center;
+    font-size: 50px;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    border-left-style:groove ;
+    border-right-style: groove;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color:black ;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin: 15px 100px;
+    
+}
+.botones button{
+    display: block;
+    border-radius: 20px;
+    border-color: black;
+    border-style: groove;
+}

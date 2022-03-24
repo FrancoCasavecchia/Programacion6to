@@ -1,0 +1,28 @@
+body{
+    display: block;
+    background-color: lavender;
+    font-family: monospace;
+    padding: 30px;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+#div_res{
+    display: block;
+    padding-top: 50px;
+}
+
+#resultado{
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    border-style: groove;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: cornsilk;
+    
+}

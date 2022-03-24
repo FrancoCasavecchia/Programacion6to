@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="img" href="Img/">
+</head>
+<body>
+    <script>
+        var c = 0;
+
+        var imagenes = new Array(
+        ['Img/im1'],['Img/im2'],['Img/im3'],['Img/im4'],['Img/im5']
+         );
+
+        function cambiarImagen(){
+            c++;
+            document.getElementById("imagen").src=imagenes[c%imagenes.length][0];
+        } 
+
+        onload = function(){
+            cambiarImagen();
+
+            setInterval(cambiarImagen,5000);
+
+        }
+
+    </script>
+    <div class="recuadro">
+        <div id="fondo">
+             <img src="" id="imagen"> 
+        </div>
+    </div>
+</body>
+</html>
